@@ -155,13 +155,13 @@ The **MTUOC-OCR-GoogleDrive** ecosystem operates on an entirely distinct cloud-b
 Ideal for scripting, scheduling, or keyboard-driven workflows.
 
     Convert PDF to Markdown (.md):
-    Bash
+    ``Bash
 
-    python cli_to_md.py "path/to/document.pdf" ["optional/output/path.md"]
+    python cli_to_md.py "path/to/document.pdf" ["optional/output/path.md"]```
 
     (Supports wildcard patterns such as *.pdf for batch processing multiple documents).
 
     Convert PDF to Word (.docx):
-    Bash
+    ` ``Bash
 
-    python cli_to_docx.py "path/to/document.pdf" ["optional/output/path.docx"]
+    python cli_to_docx.py "path/to/document.pdf" ["optional/output/path.docx"]```
