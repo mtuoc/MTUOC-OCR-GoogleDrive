@@ -142,26 +142,27 @@ The **MTUOC-OCR-GoogleDrive** ecosystem operates on an entirely distinct cloud-b
 2. **Contextual Neural Analysis:** The processing framework evaluates characters holistically as part of larger semantic phrases rather than treating individual glyphs in isolation. Statistical linguistic models infer semantic intent, dynamically capturing vocabulary, grammar, and specialized accents based on sentence context.
 3. **True Multilingual Concurrency:** Because the system evaluates text semantically rather than testing against a single localized dictionary, a single input file containing alternating paragraphs of disparate languages (e.g., a Catalan source text featuring embedded English and Spanish quotations) will process concurrently in a single pass. No manual parameter tuning or linguistic flagging is ever required from the end-user.
 
-    How to use:
+## 8. How to use:
 
-        Click the first Browse... button to select your target PDF file.
+### 8.1. GUI version
 
-        (Optional) Click the second Browse... button to specify a custom destination path and filename. If left blank, it will automatically output to the same directory with the correct extension (.docx or .md).
+* Click the first Browse... button to select your target PDF file.
+* (Optional) Click the second Browse... button to specify a custom destination path and filename. If left blank, it will automatically output to the same directory with the correct extension (.docx or .md).
+* Click Convert. The integrated log window will display real-time progress updates.
 
-        Click Convert. The integrated log window will display real-time progress updates.
-
-2. Command Line Interface (CLI)
+### 8.2. Command Line Interface (CLI)
 
 Ideal for scripting, scheduling, or keyboard-driven workflows.
 
-    Convert PDF to Markdown (.md):
-    ``Bash
-
-    python cli_to_md.py "path/to/document.pdf" ["optional/output/path.md"]```
+* Convert PDF to Markdown (.md):
+    
+    ```bash
+    python cli_to_md.py "path/to/document.pdf" ["optional/output/path.md"]
+    ```
 
     (Supports wildcard patterns such as *.pdf for batch processing multiple documents).
 
-    Convert PDF to Word (.docx):
-    ` ``Bash
-
-    python cli_to_docx.py "path/to/document.pdf" ["optional/output/path.docx"]```
+* Convert PDF to Word (.docx):
+    ```Bash
+    python cli_to_docx.py "path/to/document.pdf" ["optional/output/path.docx"]
+    ```
