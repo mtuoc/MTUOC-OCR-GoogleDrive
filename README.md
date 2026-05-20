@@ -6,6 +6,9 @@ The architecture is split into two specialized deployment workflows sharing a un
 1. **Graphical User Interface (GUI):** `MTUOC-OCR-GoogleDrive-GUI.py` – Engineered for interactive desktop operations with native support for both single-file and directory-wide batch processing.
 2. **Command-Line Interface (CLI):** `MTUOC-OCR-GoogleDrive.py` – Optimized for high-throughput headless server execution, automation scripting, and pattern-matching batch file parsing.
 
+
+The development of these tools has been partially supported by the research projects TamTAS PCI2025-167063-2, funded by MICIU/AEI/10.13039/501100011033 and European Union in the Chist-era call 2025 Science in your own language; LLMTrad-IBE: Large Language Models for translating Low-Resource Languages of the Iberian Peninsula, funded by  MCIU/AEI/10.13039/50110011033/FEDER,UE with reference PID2024-18157OB-C33. 
+
 ---
 
 ## 1. Pre-Compiled Standalone Windows Binaries
